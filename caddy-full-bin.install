@@ -1,5 +1,5 @@
 post_install() {
-    getent passwd www-data || useradd --system --shell /usr/bin/nologin www-data
+    getent passwd www-data || useradd --system --shell /usr/bin/nologin --home-dir / www-data
     mkdir -p /etc/ssl/caddy && chown -R www-data:www-data /etc/ssl/caddy
 }
 
