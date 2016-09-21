@@ -1,15 +1,14 @@
 # Maintainer: Andreas Linz <alinz@klingt.net>
 # Based on `caddy=all-features` by Eric Engestrom: https://aur.archlinux.org/packages/caddy-all-features/
-# Enable Cross Origin Resource Sharing
 
-_features=('filemanager' 'git' 'hugo' 'ipfilter' 'jwt' 'locale' 'mailout' 'minify' 'prometheus' 'realip' 'search' 'cloudflare' 'digitalocean' 'dnsimple' 'dyn' 'gandi' 'googlecloud' 'namecheap' 'rfc2136' 'route53' 'vultr')
+_features=('awslambda' 'cors' 'filemanager' 'git' 'hugo' 'ipfilter' 'jsonp' 'jwt' 'locale' 'mailout' 'minify' 'multipass' 'prometheus' 'ratelimit' 'realip' 'search' 'upload' 'cloudflare' 'digitalocean' 'dnsimple' 'dyn' 'gandi' 'googlecloud' 'namecheap' 'rfc2136' 'route53' 'vultr')
 
-# https://caddyserver.com/download/build?os=linux&arch=amd64&features=filemanager%2Cgit%2Chugo%2Cipfilter%2Cjwt%2Clocale%2Cmailout%2Cminify%2Cprometheus%2Crealip%2Csearch%2Ccloudflare%2Cdigitalocean%2Cdnsimple%2Cdyn%2Cgandi%2Cgooglecloud%2Cnamecheap%2Crfc2136%2Croute53%2Cvultr
+# https://caddyserver.com/download/build?os=linux&arch=amd64&features=awslambda%2Ccors%2Cfilemanager%2Cgit%2Chugo%2Cipfilter%2Cjsonp%2Cjwt%2Clocale%2Cmailout%2Cminify%2Cmultipass%2Cprometheus%2Cratelimit%2Crealip%2Csearch%2Cupload%2Ccloudflare%2Cdigitalocean%2Cdnsimple%2Cdyn%2Cgandi%2Cgooglecloud%2Cnamecheap%2Crfc2136%2Croute53%2Cvultr
 
 pkgname=caddy-full-bin
 _realname=caddy
-pkgver=0.9.1
-pkgrel=2
+pkgver=0.9.2
+pkgrel=1
 pkgdesc="A configurable, general-purpose HTTP/2 web server for any platform (All features enabled)"
 arch=('i686' 'x86_64' 'armv7h' 'aarch64')
 url="https://caddyserver.com"
