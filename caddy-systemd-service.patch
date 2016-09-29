@@ -4,6 +4,10 @@
 ---
 > User=http
 > Group=http
+18c18
+< ExecStart=/usr/local/bin/caddy -log stdout -agree=true -conf=/etc/caddy/Caddyfile -root=/var/tmp
+---
+> ExecStart=/usr/bin/caddy -log stdout -agree=true -conf=/etc/caddy/Caddyfile -root=/var/tmp
 41,43c41,43
 < ;CapabilityBoundingSet=CAP_NET_BIND_SERVICE
 < ;AmbientCapabilities=CAP_NET_BIND_SERVICE
