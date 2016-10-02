@@ -12,7 +12,7 @@ _realname=caddy
 pkgver=0.9.3
 pkgrel=6
 pkgdesc="A configurable, general-purpose HTTP/2 web server for any platform (All features enabled)"
-arch=('i686' 'x86_64' 'armv7h' 'aarch64')
+arch=('i686' 'x86_64' 'armv6h' 'armv7h' 'aarch64')
 url="https://caddyserver.com"
 license=('Apache')
 provides=('caddy')
@@ -23,6 +23,8 @@ md5sums_i686=('SKIP'
               '77e89ee90f6b69730b11ca83c7fbf48b')
 md5sums_x86_64=('SKIP'
               '77e89ee90f6b69730b11ca83c7fbf48b')
+md5sums_armv6h=('SKIP'
+              'eccd43f194d57af6e93a50a693d38e38')
 md5sums_armv7h=('SKIP'
               '77e89ee90f6b69730b11ca83c7fbf48b')
 md5sums_aarch64=('SKIP'
@@ -37,6 +39,7 @@ _url_prefix="https://caddyserver.com/download/build?os=linux&features=${_feature
 
 source_i686=("caddy.tar.gz::${_url_prefix}&arch=386" "caddy-systemd-service.patch")
 source_x86_64=("caddy.tar.gz::${_url_prefix}&arch=amd64" "caddy-systemd-service.patch")
+source_armv6h=("caddy.tar.gz::${_url_prefix}&arch=arm&arm=6" "caddy-systemd-service.patch")
 source_armv7h=("caddy.tar.gz::${_url_prefix}&arch=arm" "caddy-systemd-service.patch")
 source_aarch64=("caddy.tar.gz::${_url_prefix}&arch=arm64" "caddy-systemd-service.patch")
 
