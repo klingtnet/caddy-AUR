@@ -24,7 +24,7 @@ md5sums_i686=('SKIP'
 md5sums_x86_64=('SKIP'
               '77e89ee90f6b69730b11ca83c7fbf48b')
 md5sums_armv6h=('SKIP'
-              'eccd43f194d57af6e93a50a693d38e38')
+              '77e89ee90f6b69730b11ca83c7fbf48b')
 md5sums_armv7h=('SKIP'
               '77e89ee90f6b69730b11ca83c7fbf48b')
 md5sums_aarch64=('SKIP'

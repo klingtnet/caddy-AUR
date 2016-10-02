@@ -27,7 +27,7 @@ pkgbase = caddy-full-bin
 	source_armv6h = caddy.tar.gz::https://caddyserver.com/download/build?os=linux&features=awslambda,cors,filemanager,git,hugo,ipfilter,jwt,locale,mailout,minify,multipass,prometheus,ratelimit,realip,search,upload,cloudflare,digitalocean,dnsimple,dyn,gandi,googlecloud,namecheap,rfc2136,route53,vultr&arch=arm&arm=6
 	source_armv6h = caddy-systemd-service.patch
 	md5sums_armv6h = SKIP
-	md5sums_armv6h = eccd43f194d57af6e93a50a693d38e38
+	md5sums_armv6h = 77e89ee90f6b69730b11ca83c7fbf48b
 	source_armv7h = caddy.tar.gz::https://caddyserver.com/download/build?os=linux&features=awslambda,cors,filemanager,git,hugo,ipfilter,jwt,locale,mailout,minify,multipass,prometheus,ratelimit,realip,search,upload,cloudflare,digitalocean,dnsimple,dyn,gandi,googlecloud,namecheap,rfc2136,route53,vultr&arch=arm
 	source_armv7h = caddy-systemd-service.patch
 	md5sums_armv7h = SKIP
